@@ -199,6 +199,47 @@ h2 {
   gap: 0.8rem;
 }
 
+.minutes-section {
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--border);
+}
+
+.minute-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.minute-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+  color: var(--text);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.03);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.minute-link:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.minute-meta {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .footer {
   padding: 2rem 0 3rem;
   border-top: 1px solid var(--border);
