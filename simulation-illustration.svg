@@ -1,0 +1,26 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="30" fill="#F8FBFF"/>
+  <rect x="80" y="90" width="740" height="420" rx="24" fill="#EAF4FF" stroke="#6FA8FF" stroke-width="3"/>
+  <rect x="140" y="180" width="220" height="180" rx="18" fill="#FFFFFF" stroke="#2A4D69" stroke-width="3"/>
+  <rect x="170" y="218" width="90" height="110" rx="10" fill="#CFE6FF"/>
+  <rect x="285" y="245" width="40" height="28" rx="8" fill="#2D6CDF"/>
+  <rect x="262" y="221" width="44" height="18" rx="6" fill="#4D9DFF"/>
+  <path d="M200 165C200 140 221 120 248 120H270C297 120 318 140 318 165V182H200V165Z" fill="#2D6CDF"/>
+  <path d="M205 182H313" stroke="#164A8A" stroke-width="8" stroke-linecap="round"/>
+  <rect x="160" y="340" width="180" height="24" rx="12" fill="#2A4D69"/>
+  <rect x="440" y="140" width="300" height="250" rx="20" fill="#FFFFFF" stroke="#2A4D69" stroke-width="3"/>
+  <rect x="475" y="180" width="110" height="150" rx="12" fill="#DFF2FF"/>
+  <rect x="620" y="200" width="90" height="40" rx="10" fill="#2D6CDF"/>
+  <rect x="620" y="260" width="90" height="40" rx="10" fill="#22C55E"/>
+  <rect x="480" y="355" width="240" height="32" rx="16" fill="#2A4D69"/>
+  <rect x="220" y="430" width="460" height="46" rx="20" fill="#C8E7FF"/>
+  <circle cx="410" cy="220" r="24" fill="#F59E0B"/>
+  <path d="M394 220L404 230L427 207" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="310" y="430" width="110" height="70" rx="12" fill="#1D4ED8"/>
+  <rect x="328" y="448" width="74" height="12" rx="6" fill="#FFFFFF"/>
+  <rect x="328" y="468" width="50" height="12" rx="6" fill="#FFFFFF"/>
+  <rect x="610" y="450" width="140" height="80" rx="16" fill="#FFFFFF" stroke="#2A4D69" stroke-width="3"/>
+  <rect x="630" y="470" width="100" height="18" rx="9" fill="#D8EBFF"/>
+  <rect x="630" y="495" width="70" height="12" rx="6" fill="#4D9DFF"/>
+  <text x="140" y="530" fill="#16324F" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Smart IV Fluid Monitoring Simulation</text>
+</svg>
