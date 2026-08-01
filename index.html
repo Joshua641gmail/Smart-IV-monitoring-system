@@ -3,102 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart IV Fluid Monitoring System</title>
+    <title>IV Sentinel | Smart IV Fluid Monitoring System</title>
     <meta
       name="description"
-      content="A professional one-page project website for the Smart IV Fluid Monitoring System, featuring downloadable project reports."
+      content="A concise project website for the Smart IV Fluid Monitoring System, including the poster, reports, and downloadable project materials."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">Engineering Project • Healthcare Innovation</p>
-          <h1>Smart IV Fluid Monitoring System</h1>
-          <p class="lead">
-            A smart, reliable solution designed to improve intravenous fluid monitoring,
-            support patient safety, and streamline clinical oversight through real-time
-            data and automated alerts.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#downloads">Download Reports</a>
-            <a class="btn btn-secondary" href="#overview">Explore Project</a>
+      <div class="container">
+        <nav class="top-nav">
+          <a class="brand" href="#">IV Sentinel</a>
+          <div class="nav-links">
+            <a href="#overview">Overview</a>
+            <a href="#system">How it works</a>
+            <a href="#downloads">Downloads</a>
           </div>
-        </div>
-        <div class="hero-card">
-          <h3>Project Highlights</h3>
-          <ul>
-            <li>Real-time IV fluid monitoring</li>
-            <li>Automated safety alerts</li>
-            <li>Improved clinical decision support</li>
-            <li>Structured documentation and review</li>
-          </ul>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Healthcare innovation • Group 20</p>
+            <h1>Smart IV Fluid Monitoring System</h1>
+            <p class="lead">
+              A low-cost IoT prototype that tracks intravenous fluid levels in real time,
+              identifies low and critical states, and helps caregivers respond before a
+              bag runs empty.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#downloads">Open reports</a>
+              <a class="btn btn-secondary" href="IV%20SENTINEL%20POSTER%20GROUP%2020%20(1).pdf" target="_blank" rel="noopener">View poster</a>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <h3>Project highlights</h3>
+            <ul>
+              <li>Real-time fluid-level monitoring</li>
+              <li>Colour-coded alerts for safe response</li>
+              <li>LCD-based bedside display</li>
+              <li>ThingSpeak connectivity for remote visibility</li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
       <section id="overview" class="section">
-        <div class="container two-column">
+        <div class="container overview-grid">
           <div>
-            <p class="section-label">Project Overview</p>
-            <h2>Modernizing IV fluid management with intelligent monitoring.</h2>
+            <p class="section-label">Project overview</p>
+            <h2>Addressing a common care challenge with practical monitoring.</h2>
             <p>
-              The Smart IV Fluid Monitoring System focuses on enhancing patient care by
-              combining practical monitoring technology with clear documentation and
-              system design principles. The solution supports safer fluid administration
-              and helps healthcare professionals respond quickly to changing conditions.
+              In many hospitals and health centres, IV fluid checks are still done manually,
+              which can delay response when a bag is nearly empty. This project introduces
+              a simple embedded system that continuously evaluates fluid status and gives
+              clear alerts to reduce risk and improve nursing efficiency.
             </p>
           </div>
-          <div class="info-panel">
-            <h3>What this project delivers</h3>
+          <div class="info-card">
+            <h3>What the system delivers</h3>
             <p>
-              From concept to implementation planning, the project provides a complete
-              framework for understanding the system’s purpose, functional requirements,
-              and expected impact on healthcare delivery.
+              The prototype combines a load-cell sensor, ESP32-based control, an LCD display,
+              LEDs, and cloud upload to provide a dependable bedside monitoring workflow.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="system" class="section section-alt">
+        <div class="container">
+          <p class="section-label">How it works</p>
+          <h2>Simple hardware, clear monitoring logic</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>1. Sensor input</h3>
+              <p>
+                A load cell measures the remaining fluid weight, and the system converts it
+                into a percentage estimate of the IV bag contents.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>2. Status evaluation</h3>
+              <p>
+                The controller classifies the condition as Normal, Low, or Critical based on
+                predefined thresholds for safe monitoring.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>3. Alerts and upload</h3>
+              <p>
+                LEDs and the LCD display show the current state, while ThingSpeak enables the
+                data to be shared for further monitoring and review.
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="container">
-          <div class="abstract-box">
-            <div class="abstract-text">
-              <p class="section-label">Abstract</p>
-              <h2>Project summary and significance</h2>
-              <p>
-                There is a known inadequacy of healthcare workers in hospitals and health centres around Uganda.
-                In these resource-limited settings, monitoring intravenous (IV) fluid therapy remains a manual and
-                time-consuming task for nurses who must frequently move between patients to visually check fluid levels.
-                Conventional IV stands provide no early warning before a bag runs empty, creating preventable safety risks
-                and unnecessary workload. This project presents the Smart IV Fluid Monitoring System, a low-cost embedded
-                prototype built around an ESP32 microcontroller, a load cell via HX711, an LCD display, and colour-coded LEDs.
-                It continuously tracks fluid status as Normal, Low, or Critical and provides automated alerts to improve patient safety.
-              </p>
-            </div>
-            <div class="abstract-visual">
-              <picture>
-                <source srcset="simulation-image.png" type="image/png" />
-                <source srcset="simulation-image.jpg" type="image/jpeg" />
-                <img src="simulation-illustration.svg" alt="Illustration of the smart IV fluid monitoring simulation" />
-              </picture>
-            </div>
+        <div class="container media-card">
+          <div>
+            <p class="section-label">Project materials</p>
+            <h2>Poster, reports, and supporting documents</h2>
+            <p>
+              The website now highlights the project poster alongside the official reports so
+              the full scope of the work is easy to review in one place.
+            </p>
+          </div>
+          <div class="document-list">
+            <a class="doc-link" href="IV%20SENTINEL%20POSTER%20GROUP%2020%20(1).pdf" target="_blank" rel="noopener">
+              <span>Poster PDF</span>
+              <span class="doc-meta">Open</span>
+            </a>
+            <a class="doc-link" href="GROUP%2020-TECHNICAL%20REPORT.pdf" download>
+              <span>Technical report</span>
+              <span class="doc-meta">PDF</span>
+            </a>
+            <a class="doc-link" href="GROUP%2020-SRS%20REPORT.pdf" download>
+              <span>SRS report</span>
+              <span class="doc-meta">PDF</span>
+            </a>
           </div>
         </div>
       </section>
 
       <section class="section section-alt">
-        <div class="container contributors-grid">
+        <div class="container authors-grid">
           <div>
-            <p class="section-label">Contributors</p>
-            <h2>Team members behind the project</h2>
+            <p class="section-label">Authors</p>
+            <h2>Team members</h2>
             <p>
-              This project was developed by Group 20 as part of the CSC 1304 Practical Skills Development course.
+              This project was developed by Group 20 as part of the practical skills
+              development course.
             </p>
           </div>
-          <div class="contributors-card">
+          <div class="authors-card">
             <ul>
               <li>SSERUNKUUMA JOSHUA</li>
               <li>NEBIRAH PRECIOUS MERISAH</li>
@@ -111,37 +153,47 @@
         </div>
       </section>
 
-      <section id="downloads" class="section">
+      <section id="downloads" class="section section-alt">
         <div class="container">
-          <p class="section-label">Downloadable Documents</p>
-          <h2>Access the official project reports</h2>
+          <p class="section-label">Downloadable documents</p>
+          <h2>Official reports and project records</h2>
           <div class="card-grid">
             <article class="download-card">
-              <h3>Project Report</h3>
-              <p>
-                Detailed documentation covering the project background, objectives,
-                implementation review, and overall findings.
-              </p>
-              <a class="btn btn-primary" href="Smart_IV_Fluid_Monitoring_System_Report.docx" download>
-                Download Report
+              <h3>Technical report</h3>
+              <p>Detailed implementation notes, system design, and project findings.</p>
+              <a class="btn btn-primary" href="GROUP%2020-TECHNICAL%20REPORT.pdf" download>
+                Download technical report
               </a>
             </article>
 
             <article class="download-card">
-              <h3>SRS Document</h3>
-              <p>
-                The Software Requirements Specification outlining system requirements,
-                functional expectations, and design considerations.
-              </p>
-              <a class="btn btn-primary" href="Smart_IV_Fluid_Monitoring_System_SRS.docx" download>
-                Download SRS
+              <h3>SRS report</h3>
+              <p>Requirements and design documentation for the monitoring system.</p>
+              <a class="btn btn-primary" href="GROUP%2020-SRS%20REPORT.pdf" download>
+                Download SRS report
+              </a>
+            </article>
+
+            <article class="download-card">
+              <h3>Abstract</h3>
+              <p>A concise summary of the problem, solution, and expected impact.</p>
+              <a class="btn btn-primary" href="IV_Monitoring_System_Abstract.docx" download>
+                Download abstract
+              </a>
+            </article>
+
+            <article class="download-card">
+              <h3>Prototype code</h3>
+              <p>The Arduino sketch used for the embedded monitoring prototype.</p>
+              <a class="btn btn-primary" href="IoT%20smart%20IV.ino" download>
+                Download code
               </a>
             </article>
           </div>
 
           <div class="minutes-section">
-            <h3>Meeting Minutes</h3>
-            <p>Download the weekly progress logs in a compact format.</p>
+            <h3>Meeting minutes</h3>
+            <p>Weekly progress records from the project development cycle.</p>
             <ul class="minute-list">
               <li><a class="minute-link" href="Meeting_1_Minutes.pdf" download><span>Week 1 Minutes</span><span class="minute-meta">PDF</span></a></li>
               <li><a class="minute-link" href="Meeting_2_Minutes.pdf" download><span>Week 2 Minutes</span><span class="minute-meta">PDF</span></a></li>
@@ -158,7 +210,7 @@
 
     <footer class="footer">
       <div class="container footer-content">
-        <p>© 2026 Smart IV Fluid Monitoring System</p>
+        <p>© 2026 IV Sentinel</p>
         <p>Prepared for academic and professional project presentation.</p>
       </div>
     </footer>
